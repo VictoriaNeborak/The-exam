@@ -165,8 +165,6 @@ color:  #ffffff;
 }
 .ba-gallery__photo {
     margin-top: 5px;
-    /*width: 350px;
-    height: 220px;*/
 }
 .ba-gallery__photo--bottom {
     align-self: flex-end;
@@ -276,6 +274,23 @@ text-transform: capitalize;
      transform: scale(1.2);
 }
 .ba-gallery__photo:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.review-box-blockquote {
+    font-family: FontAwesome;
+    color:  #5474fd;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.ba-box__title--review {
+    font-family: 'Aleo_reg';
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+.review-info__photo:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
